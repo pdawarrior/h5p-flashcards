@@ -1,36 +1,36 @@
 {
   "semantics": [
     {
-      "label": "Task description"
+      "label": "Mô tả nhiệm vụ"
     },
     {
       "widgets": [
         {
-          "label": "Default"
+          "label": "Mặc định"
         }
       ],
-      "label": "Cards",
+      "label": "Thẻ",
       "entity": "card",
       "field": {
-        "label": "Card",
+        "label": "Thẻ",
         "fields": [
           {
-            "label": "Question",
-            "description": "Optional textual question for the card. (The card may use just an image, just a text or both)"
+            "label": "Câu hỏi",
+            "description": "Tùy chọn câu hỏi văn bản cho thẻ. (Thẻ có thể chỉ sử dụng một hình ảnh, chỉ là một văn bản hoặc cả hai)"
           },
           {
-            "label": "Answer",
-            "description": "Optional answer(solution) for the card."
+            "label": "Câu trả lời",
+            "description": "Câu trả lời (lời giải) tùy chọn cho thẻ."
           },
           {
-            "label": "Image",
-            "description": "Optional image for the card. (The card may use just an image, just a text or both)"
+            "label": "Hình ảnh",
+            "description": "Hình ảnh tùy chọn cho thẻ. (Thẻ có thể chỉ sử dụng một hình ảnh, chỉ là một văn bản hoặc cả hai)"
           },
           {
-            "label": "Tip",
+            "label": "Gợi ý",
             "fields": [
               {
-                "label": "Tip text"
+                "label": "Văn bản gợi ý"
               }
             ]
           }
@@ -38,65 +38,65 @@
       }
     },
     {
-      "label": "Progress text",
-      "default": "Card @card of @total",
-      "description": "Progress text, variables available: @card and @total. Example: 'Card @card of @total'"
+      "label": "Văn bản tiến trình",
+      "default": "Thẻ @card trong @total",
+      "description": "Văn bản tiến trình, các biến có sẵn: @card và @total. Ví dụ: 'Thẻ @card của @total'"
     },
     {
-      "label": "Text for the next button",
-      "default": "Next"
+      "label": "Văn bản cho nút tiếp theo",
+      "default": "Tiếp theo"
     },
     {
-      "label": "Text for the previous button",
-      "default": "Previous"
+      "label": "Văn bản cho nút trước",
+      "default": "Trước"
     },
     {
-      "label": "Text for the check answers button",
-      "default": "Check"
+      "label": "Văn bản cho nút kiểm tra câu trả lời",
+      "default": "Kiểm tra"
     },
     {
-      "label": "Require user input before the solution can be viewed"
+      "label": "Yêu cầu người dùng nhập câu trả lời trước khi có thể xem lời giải "
     },
     {
-      "label": "Text for the answer input field",
-      "default": "Your answer"
+      "label": "Văn bản cho trường nhập câu trả lời",
+      "default": "Câu trả lời của bạn"
     },
     {
-      "label": "Text for correct answer",
-      "default": "Correct"
+      "label": "Văn bản cho câu trả lời đúng",
+      "default": "Đúng"
     },
     {
-      "label": "Text for incorrect answer",
-      "default": "Incorrect"
+      "label": "Văn bản cho câu trả lời sai",
+      "default": "Sai"
     },
     {
-      "label": "Show solution text",
-      "default": "Correct answer"
+      "label": "Văn bản hiển thị lời giải",
+      "default": "Câu trả lời đúng"
     },
     {
-      "label": "Text for results title",
-      "default": "Results"
+      "label": "Văn bản cho tiêu đề kết quả",
+      "default": "Kết quả"
     },
     {
-      "label": "Text for number of correct",
-      "default": "@score of @total correct",
-      "description": "Result text, variables available: @score and @total. Example: '@score of @total correct'"
+      "label": "Văn bản cho số câu đúng",
+      "default": "@score trong @total câu đúng",
+      "description": "Văn bản kết quả, biến có sẵn: @score và @total. Ví dụ: '@score trong @total câu đúng'"
     },
     {
-      "label": "Text for show results",
-      "default": "Show results"
+      "label": "Văn bản cho hiển thị kết quả",
+      "default": "Hiển thị kết quả"
     },
     {
-      "label": "Text for short answer label",
+      "label": "Văn bản cho nhãn câu trả lời ngắn",
       "default": "A:"
     },
     {
-      "label": "Text for \"retry\" button",
-      "default": "Retry"
+      "label": "Văn bản cho nút \"thử lại\"",
+      "default": "Thử lại"
     },
     {
-      "label": "Case sensitive",
-      "description": "Makes sure the user input has to be exactly the same as the answer."
+      "label": "Phân biệt chữ hoa chữ thường",
+      "description": "Đảm bảo rằng nội dung nhập của người dùng phải giống hệt như câu trả lời."
     }
   ]
 }
